@@ -1,0 +1,111 @@
+body {
+    background-color: #1A2902;
+    font: Verdana;
+    color: black;
+    }
+
+
+nav.navbar {
+    background-color: #778D45;
+    text-align: right;
+}
+
+
+.nav-item {
+    font: 25px arial narrow;
+    text-align: right;
+    font-weight: 800;
+}
+
+.col-lg-6 {
+    background-color: #778D45;
+    padding: 45px;
+}
+
+#actividades{
+    width: 1300px;
+    height: 1450px;
+    background-color: #AEC670;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.actividad1{
+    width: 380px;
+    height: 1000px;
+    background-color: #778D45;
+    margin-left: 40px;
+    margin-top: 150px;
+    float: left;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: dark;
+    font: arial black;
+    font-weight: 800;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    font: arial black;
+    font-weight: 800;
+}
+
+.pagination {
+float: right;
+}
+
+.page-link {color: #1A2902;}
+
+.page-link:hover {
+  z-index: 2;
+  color: #1A2902;
+  text-decoration: none;
+  background-color: #A1C163;
+  border-color: #A1C163;}
+
+  .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #7B9640;
+  border-color: #7B9640;}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: #344C11;
+    }  
+
+.socials{
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.socials li{
+    margin: 0 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.4rem;
+    transition: color .2s ease;
+}
+.socials a:hover i{
+    color: #1B230D;
+    background-color: none;
+}
+
+
